@@ -1,0 +1,59 @@
+# Build output
+/bin/
+/build/
+/out/
+/*.exe
+/*.exe~
+/*.out
+/*.test
+
+# Dependency directories
+/vendor/
+.gomodcache/
+.golangci.yml
+
+# IDE and editor files
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Go modules
+/go.sum
+/go.mod
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage output
+*.coverage
+*.cover
+*.cov
+*.testcover
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Local configuration
+*.local
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# Kubernetes
+*.kube/
